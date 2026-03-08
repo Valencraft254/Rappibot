@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rappi Bot | Comandos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --orange: #ffa000;
+      --background: #1c1c1c;
+      --card: #2a2a2a;
+      --text: #ffffff;
+      --text-light: #cccccc;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+    }
+
+    header {
+      background-color: var(--orange);
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #1c1c1c;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+
+    .card {
+      background-color: var(--card);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .card h2 {
+      color: var(--orange);
+      margin-top: 0;
+    }
+
+    .command {
+      background-color: #1e1e1e;
+      padding: 10px 15px;
+      margin: 8px 0;
+      border-radius: 8px;
+      font-family: monospace;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .command span {
+      color: var(--text-light);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: var(--text-light);
+    }
+  </style>
+</head>
+<body>
+  <header>Rappi Bot | Comandos</header>
+  <main>
+    <!-- Comandos de trabajo -->
+    <div class="card">
+      <h2>Comandos de Trabajo</h2>
+      <div class="command">
+        <strong>/work</strong>
+        <span>Trabaja según tu vehículo y gana ARS</span>
+      </div>
+      <div class="command">
+        <strong>/upgrade</strong>
+        <span>Sube de bicicleta → moto → dron</span>
+      </div>
+    </div>
+
+    <!-- Comandos de economía -->
+    <div class="card">
+      <h2>Comandos de Economía</h2>
+      <div class="command">
+        <strong>/balance</strong>
+        <span>Muestra tu balance actual</span>
+      </div>
+      <div class="command">
+        <strong>$pay {user} {cantidad}</strong>
+        <span>Paga ARS a otro usuario</span>
+      </div>
+    </div>
+
+    <!-- Comandos de productos -->
+    <div class="card">
+      <h2>/rappi</h2>
+      <div class="command">
+        <strong>!cajita</strong>
+        <span>Cajita Feliz — 6000$</span>
+      </div>
+      <div class="command">
+        <strong>!bigmc</strong>
+        <span>Big Mc — 11000$</span>
+      </div>
+      <div class="command">
+        <strong>!papascheddar</strong>
+        <span>Papas Cheddar — 10000$</span>
+      </div>
+      <div class="command">
+        <strong>!papascrispy</strong>
+        <span>Papas Crispy — 7500$</span>
+      </div>
+      <div class="command">
+        <strong>!mccesar</strong>
+        <span>Ensalada — 5500$</span>
+      </div>
+      <div class="command">
+        <strong>!bpc</strong>
+        <span>Balde Pollo Crispy 3 personas — 19000$</span>
+      </div>
+    </div>
+  </main>
+  <footer>© Rappi Bot</footer>
+</body>
+</html>
