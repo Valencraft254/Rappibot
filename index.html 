@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galaxy Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="stars"></div>
+
+<div class="sidebar">
+    <h1>🌌 Galaxy</h1>
+
+    <button>🏠 Inicio</button>
+    <button>🖥 Servidores</button>
+    <button>🚫 Blacklist</button>
+    <button>📜 Logs</button>
+    <button>⚙ Ajustes</button>
+</div>
+
+<div class="main">
+
+<h2>Dashboard</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Servidores</h3>
+<p id="guilds">0</p>
+</div>
+
+<div class="card">
+<h3>Usuarios</h3>
+<p id="users">0</p>
+</div>
+
+<div class="card">
+<h3>Blacklist</h3>
+<p id="blacklist">0</p>
+</div>
+
+<div class="card">
+<h3>Ping</h3>
+<p id="ping">0ms</p>
+</div>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
